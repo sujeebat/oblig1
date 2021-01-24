@@ -1,0 +1,113 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    box-shadow: 0px 6px 10px #00000019;
+}
+section.first-section {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+section.second-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.second-section form {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+}
+input.text1 {
+    width: 460px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #707070;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #fdfdfd;
+}
+
+textarea.textarea1 {
+    margin-top: 5px;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    background: #fdfdfd;
+}
+
+section.section-section-inner button {
+    padding: 10px 40px;
+    font-weight: bold;
+    color: #fff;
+    background: #56d4c2;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+section.section-section-inner {
+    display: flex;
+    justify-content: flex-end;
+}
+section.section-three {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.section-three-inner {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+section.section-three-inner article {
+    flex: 1 0 25%;
+    margin-right: 25px;
+    padding: 20px 15px;
+    box-shadow: 0 .5rem 1rem rgba(86,212,194,.15)!important;
+    margin-top: 40px;
+}
+section.section-three-double-inner {
+    display: flex;
+    justify-content: flex-end;
+}
+section.section-three-double-inner button{
+    padding: 5px 10px;
+    font-weight: normal;
+    color: #fff;
+    background: #56d4c2;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 11px;
+}
+section.section-three-inner article > span{
+    font-weight:bold;
+}
+section.section-three > h2 {
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+section.second-section form label {
+    font-weight: bold;
+}
+section.section-three-inner article > p {
+    color: #333333;
+    font-size: 14px;
+}
+.spacer{
+    height:100px;
+}
